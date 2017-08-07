@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>Project 1</title>
+	<script src="validate.js" charset="utf-8"></script>
+</head>
+<body>
+	<div id="nameDiv">
+		<label>Name:</label>
+		<input type="text" id="name" /><br />
+  </div>
+  <div id="emailDiv">
+		<label>Email:</label>
+		<input type="text" id="email" /><br />
+  </div>
+  <div id="phoneDiv">
+		<label>Phone:</label>
+		<input type="text" id="phoneAreaCode" />
+		<input type="text" id="phonePrefix" />
+		<input type="text" id="phoneSuffix" /><br />
+  </div>
+  <div id="addressDiv">
+		<label>Address:</label>
+		<input type="text" id="address" /><br />
+  </div>
+  <div id="cityDiv">
+		<label>City:</label>
+		<input type="text" id="city" /><br />
+	</div>
+  <div id="stateDiv">
+		<label>State:</label>
+		<select id="state">
+		  <option value="" disabled selected>Choose State</option>
+			<option value="WI">Wisconsin</option>
+			<option value="TX">Texas</option>
+			<option value="WA">Washington</option>
+			<option value="AZ">Arizona</option>
+			<option value="FL">Florida</option>
+		</select><br />
+  </div>
+  <div id="zipDiv">
+		<label>Zip:</label>
+		<input type="text" id="zip"><br />
+	</div>
+	<div id="gender">
+		<label>Gender:</label>
+		<input type="radio" id="gender1" name="gender" value="Male" checked /><label>Male</label>
+		<input type="radio" id="gender2" name="gender" value="Female" /><label>Female</label><br />
+  </div>
+  <div id="coursesDiv">
+		<label>Previous Courses:</label>
+		<input type="checkbox" id="course1" value="ASP.NET" /><label>ASP.NET</label>
+		<input type="checkbox" id="course2" value="Advanced Java" /><label>Advanced Java</label>
+		<input type="checkbox" id="course3" value="PHP" /><label>PHP</label><br />
+  </div>
+		<button onclick="validate();">Validate</button>
+
+	<!-- Want ouput div here! <div id="output"></div> -->
+
+</body>
+</html>
